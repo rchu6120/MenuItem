@@ -8,7 +8,7 @@ public class Trio implements MenuItem {
         this.drink = drink;
     }
     public String getName() {
-        return sandwich.getName() + "/" + salad.getName() + "/" + drink.getName() + "Trio";
+        return sandwich.getName() + "/" + salad.getName() + "/" + drink.getName() + " Trio";
     }
     public double getPrice() {
         if (sandwich.getPrice() < salad.getPrice() && sandwich.getPrice() < drink.getPrice()) {
