@@ -1,2 +1,2 @@
-public class Salad {
+public class Salad implements MenuItem {
 }
